@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<title>Muebles veliz</title><head>
+<link rel="icon" type="image/png" href="images/icono.png" />
+<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="normalize.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
+<meta charset="utf-8" />
+
+<header>
+    <div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon icon-menu"></span>Menu</a>
+		</div>
+     <nav>
+	  <ul>
+
+	 	<li><a href="../index.html"><span class=""><i class="icon "></i></span> Inicio</a></li>
+	 	<li><a href="cic.html"><span class=""><i class="icon "></i></span>Colchones CIC</a></li>
+	 	<li><a href="rosen.html"><span class=""><i class="icon "></i></span>Colchones Rosen</a></li>
+	 	<li><a href="contacto.html"><span class=""><i class="icon "></i></span>Contacto</a></li>
+	 	<li><a href="ubicacion.html"><span class=""><i class="icon "></i></span>Ubicacion</a></li>
+
+	  </ul>	
+	 </nav>
+	</header>
+<div id="contenedor">
+
+<div id="vacio">
+		
+	
+    </div>
+    
+      <div id="fb">
+	<a href="https://www.facebook.com/muebles.veliz" target="_blank">FB</a>
+    </div>
+
+<div style="width:50%;" id="logo">
+<banner><img src="images/logo.png" width="100%"></banner>
+</div>
+
+
+
+
+<body> 
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" >
+	$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main(){
+	$('.menu_bar').click(function(){
+		// $('nav').toggle(); 
+ 
+		if(contador===1){
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+ 
+	});
+ 
+};
+
+</script>
+
+
+
+
+
+
+<div id="cont">
+
+
+
+
+
+<div id="columna1">
+
+<div id="oferta">
+
+<h2>!!! OFERTA !!!</h2>
+<img src="images/colchonespuma.jpg"/ width="80%">
+<h1>Colchon Espuma 1pza</h1>
+<h3>Antes: $35.000</h3>
+<h2 >Ahora: $25.000</h2>
+<p>Stock limitado</p><br />
+
+</div><!--fin div oferta-->
+<br>
+<div id="oferta">
+
+<h2>!!! OFERTA !!!</h2>
+<img src="images/camanido.jpg"/ width="80%">
+<h1>Cama nido 1 1/2 pza arriba y 1pza abajo </h1>
+<h3>Antes: $210.000</h3>
+<h2>Ahora: $195.000</h2>
+<p>Stock limitado</p>
+
+</div><!--fin div oferta-->
+
+</div><!--fin div columna1-->
+
+<div id="cuerpo">
+<h1> UBICACION</h1>
+<h3>Clik en la imagen para acceder al mapa</h3>
+<a href="https://www.google.cl/maps/place/Placer+939,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4755301,-70.6463595,17z/data=!3m1!4b1!4m2!3m1!1s0x9662c54788d524d5:0x3efc514d79350c19"><img src="images/mapa.png" width="80%"/></a>
+<h3>Clik en la imagen para acceder al mapa</h3>
+</div><!--fin div cuerpo-->
+
+
+
+
+
+
+<div id="columna2">
+
+<div id="Amedida">
+<h3> Muebles a medidas especiales :</h3>
+<h3> - Marquesas</h3>
+<h3> -Closet</h3>
+<h3> -Veladores</h3>
+<h3> -Muebles de Cocina</h3>
+<img src="images/mueble.jpg"/ width="80%">
+</div><!--fin div Amedida-->
+<br>
+<div id="Amedida">
+<h2 >Medios de pago: Efectivo , transferencias bancarias y Transbank</h2>
+<img src="images/trans.jpg" width="80%" />
+</div><!--fin div Amedida-->
+<br>
+
+</div><!--fin div columna2-->
+
+</div>
+
+
+
+
+
+
+
+<div id="fin">
+
+<h2 id="fi">Direccion: Placer 939, calle 13, local: 159 - 160, a pasos del metro Franklin </h2>
+<h2 id="fi">Numero telefonico y whatsapp : +56976285473</h2>
+</div><!--fin div fin-->
+
+</body>
+</html>
